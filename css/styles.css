@@ -83,6 +83,10 @@ color:var(--accent-color)
     color: var(--second-text-color)
 }
 
+.header-nav.menu-link link.current{
+    color:var(--accent-color);
+}
+
 
 
 /*-----hero-----*/
