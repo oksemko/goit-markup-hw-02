@@ -25,6 +25,13 @@ body {
     cursor: pointer;
 }
 
+.section-title{
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--primary-text-color)
+
 
 /*------logo-----*/
 
@@ -80,7 +87,22 @@ color:var(--accent-color)
 
 /*-----hero-----*/
 
-.btn {
+
+.hero {
+    background-color: var(--background-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color:var(--primary-title-color)
+}
+
+
+.hero-btn {
     font-weight: bold;
     font-size: 16px;
     line-height: 1.88;
@@ -90,3 +112,66 @@ color:var(--accent-color)
     color: var(--primary-title-color);
     background-color: var(--accent-color);
 }
+
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: var(--second-accent-color);
+}
+
+
+/*-----features-----*/
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+
+
+  .features-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color:var(--secondary-title-color);
+  }
+
+  .features-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;    
+    letter-spacing: 0.03em;
+    color:var(--second-text-color);
+  }
+
+  /*-----team----*/
+
+  .team-item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color:var(--secondary-title-color);
+  }
+
+  .team-item-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19x;
+    letter-spacing: 0.03em;
+    color:var(--second-text-color)
+  }
+
+
+  /*-----footer-----*/
+
+  .footer {
+      background-color: var(--background-color);
+  }
