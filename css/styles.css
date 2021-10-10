@@ -83,7 +83,7 @@ color:var(--accent-color)
     color: var(--second-text-color)
 }
 
-.header-nav.menu-link link.current{
+.header-nav.list menu-list.menu-link link.current{
     color:var(--accent-color);
 }
 
