@@ -215,4 +215,49 @@ color:var(--accent-color)
 
 /*-----portfolio page-----*/
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
 
+  .filter-btn {
+    font-family: Roboto; sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;    
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--secondary-title-color);
+    background-color: #F5F4FA;
+  }
+
+.filter-btn:hover,
+.filter-btn:focus{
+    color:var(--primary-text-color);
+    background-color:var(--accent-color);
+}
+
+.portfolio-item-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;    
+    letter-spacing: 0.06em;
+    color:var(--secondary-title-color);
+}
+
+
+.portfolio-item-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color:--second-text-color;
+}
