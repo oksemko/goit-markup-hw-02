@@ -30,7 +30,7 @@ body {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color:var(--primary-text-color)
+    color:var(--primary-text-color);
 
 
 /*------logo-----*/
@@ -67,12 +67,12 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-color:var(--accent-color)
+color:var(--accent-color);
 }
 
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-    color:var(--accent-color)
+    color:var(--accent-color);
 }
 
 .header-tel {
@@ -80,10 +80,10 @@ color:var(--accent-color)
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--second-text-color)
+    color: var(--second-text-color);
 }
 
-.header-nav.list menu-list.menu-link link.current{
+.header-nav.list menu-list.menu-link link.current {
     color:var(--accent-color);
 }
 
@@ -102,7 +102,7 @@ color:var(--accent-color)
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    color:var(--primary-title-color)
+    color:var(--primary-title-color);
 }
 
 
@@ -110,6 +110,7 @@ color:var(--accent-color)
     font-weight: bold;
     font-size: 16px;
     line-height: 1.88;
+    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
