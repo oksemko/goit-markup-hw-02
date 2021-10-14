@@ -7,6 +7,7 @@
     --accent-color: #2196F3;
     --background-color: #E5E5E5;
     --secondary-background-color: #2F303A;
+    --third-background-color: #F5F4FA;
 }
 
 body {
@@ -17,6 +18,7 @@ body {
 .list {
     list-style: none;
 }
+
 
 .link {
     text-decoration: none;
@@ -102,12 +104,19 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    color:var(--accent-color)
+    color:var(--accent-color);
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
     color: var(--accent-color);
+}
+
+.portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color:var(--second-text-color);
 }
 
 .contacts-tel {
@@ -252,17 +261,21 @@ body {
     font-family: Roboto; sans-serif ;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.62;    
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--secondary-title-color);
-    background-color: #F5F4FA;
+    background-color: var(--third-background-color);
   }
 
 .filter-btn:hover,
 .filter-btn:focus{
-    color:var(--primary-text-color);
-    background-color:var(--accent-color);
+    color:var(--accent-color);
+}
+
+.current {
+    color:var(--primary-title-color);
+    background-color: var(--accent-color);
 }
 
 .portfolio-item-title {
