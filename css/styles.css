@@ -68,6 +68,11 @@ body {
     color:var(--accent-color);
 }
 
+.header-web:hover,
+.header-web:focus {
+    color:var(--accent-color);
+}
+
 .header-studio {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -77,9 +82,19 @@ body {
     color:var(--primary-text-color);
 }
 
+.header-studio:hover,
+.header-studio:focus {
+    color:var(--accent-color);
+}
+
+
 
 
 /*-----header-----*/
+
+.header {
+    background-color: var(--header-color);
+}
 
 
 .nav-link {
@@ -137,6 +152,11 @@ body {
 /*-----hero-----*/
 
 
+.hero {
+    background-color:var(--secondary-background-color);
+    text-align: center;
+}
+
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -144,16 +164,13 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color:var(--primary-title-color);
-    background-color: var(--secondary-background-color);
 }
 
 
 .hero-btn {
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
+    line-height: 1.87;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--primary-title-color);
@@ -162,7 +179,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus{
-    color:var(--accent-color)
+    color:var(--accent-color);
 }
 
 
@@ -229,6 +246,11 @@ body {
     color:var(--accent-color);
 }
 
+.footer-web:hover,
+.footer-web:focus {
+    color:var(--accent-color);
+}
+
 .footer-studio {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -238,8 +260,14 @@ body {
     color:var(--primary-title-color);
 }
 
+.footer-studio:hover,
+.footer-studio:focus {
+    color:var(--accent-color);
+}
+
 .footer-contacts-link {
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -256,6 +284,10 @@ body {
 
 /*-----portfolio page-----*/
 
+.filter-btn {
+    color:var(--third-background-color);
+}
+
 
 .filter-btn {
     font-family: Roboto; sans-serif ;
@@ -265,7 +297,6 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--secondary-title-color);
-    background-color: var(--third-background-color);
   }
 
 .filter-btn:hover,
