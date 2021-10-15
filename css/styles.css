@@ -5,7 +5,7 @@
     --primary-title-color: #FFFFFF;
     --secondary-title-color: #212121;
     --accent-color: #2196F3;
-    --background-color: #E5E5E5;
+    --background-color: #ffffff;
     --secondary-background-color: #2F303A;
     --third-background-color: #F5F4FA;
 }
@@ -100,7 +100,7 @@ body {
 .nav-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14x;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--primary-text-color);
     text-decoration: none;
@@ -196,7 +196,6 @@ body {
   }
 
   .features-text {
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;    
     letter-spacing: 0.03em;
@@ -214,7 +213,6 @@ body {
   }
 
   .team-item-text {
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.19x;
     letter-spacing: 0.03em;
@@ -265,7 +263,7 @@ body {
     color:var(--accent-color);
 }
 
-.footer-contacts-link {
+.footer-address-link {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -274,6 +272,21 @@ body {
     letter-spacing: 0.03em;
     color:var(--primary-title-color);
 }
+
+.footer-address-link:hover,
+.footer-address-link:focus {
+    color:var(--accent-color);
+}
+
+.footer-contacts-link {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: hsla(0, 0%, 100%, 0.6);
+    }
 
 .footer-contacts-link:hover,
 .footer-contacts-link:focus {
@@ -296,17 +309,13 @@ body {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color:var(--secondary-title-color);
+    color:var(--primary-text-color);
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
-    color:var(--accent-color);
-}
-
-.current {
     color:var(--primary-title-color);
-    background-color: var(--accent-color);
+    background-color:var(--accent-color);
 }
 
 .portfolio-item-title {
@@ -319,7 +328,6 @@ body {
 
 
 .portfolio-item-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
