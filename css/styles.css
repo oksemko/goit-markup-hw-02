@@ -284,7 +284,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: hsla(0, 0%, 100%, 0.6);
+    color:rgba(255, 255, 255, 0.6);
     }
 
 .footer-contacts-link:hover,
